@@ -1,0 +1,433 @@
+*,
+*::before,
+*::after {
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--clr-white: hsl(0, 0%, 100%);
+	--clr-purple-100: hsl(254, 88%, 90%);
+	--clr-purple-500: hsl(256, 67%, 59%);
+	--clr-yellow-100: hsl(31, 66%, 93%);
+	--clr-yellow-500: hsl(39, 100%, 71%);
+	--clr-background: #f5f5f5;
+	--clr-black: hsl(0, 0%, 7%);
+	--fw-normal: 400;
+	--fw-semi-bold: 500;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.8rem;
+	background-color: var(--clr-background);
+	display: grid;
+	place-content: center;
+}
+
+.container {
+	width: 100%;
+	padding: 2rem;
+	font-family: "DM Sans", sans-serif;
+	font-size: 1.8rem;
+	font-weight: var(--fw-normal);
+}
+
+h2 {
+	font-family: "DM Sans", sans;
+	font-weight: 600;
+	letter-spacing: -0.1rem;
+	line-height: 2.6rem;
+	font-size: 2.4rem;
+}
+
+.card {
+	border-radius: 1rem;
+	width: 32rem;
+	padding: 1.5rem;
+	overflow: hidden;
+	margin-bottom: 3rem;
+}
+
+.block-1 {
+	background-color: var(--clr-yellow-100);
+	padding: 2rem;
+	grid-area: box1;
+}
+
+.block-1 h2 span {
+	color: var(--clr-purple-500);
+	font-style: italic;
+}
+
+.createpost{
+	border-radius: 30px;
+	background-color: #e39f4c;
+	padding: 18px;
+	border: none;
+	color:#7f05ddf6;
+	font-weight:bold;
+}
+
+.block-2 {
+	background-color: var(--clr-purple-500);
+	color: var(--clr-white);
+	padding: 4rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	grid-area: box2;
+}
+
+
+.block-2 h1 {
+	line-height: 4rem;
+	font-weight: var(--fw-semi-bold);
+	text-align: center;
+	font-size: 4rem;
+	margin-bottom: 2rem;
+}
+
+.block-2 h1 span {
+	color: var(--clr-yellow-500);
+}
+
+.block-2 p {
+	opacity: 0.9;
+}
+
+.stars{
+	font-size: x-large;
+	margin-top: 20px;
+}
+.rating{
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	opacity: 80%;
+	
+}
+
+
+.block-3 {
+	background-color: var(--clr-yellow-500);
+	grid-area: box4;
+}
+
+.block-3 h2 {
+	margin-bottom: 1rem;
+}
+
+.block-3 img {
+	width: 70%;
+}
+
+.block-4 {
+	background-color: var(--clr-white);
+	grid-area: box5;
+}
+
+.block-4 img {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+
+.block-4-1{
+	width: 100%;
+	height: 50%;
+}
+.b4img{
+	border-radius: 50%;
+}
+
+.insta{
+	height: 50%;
+	width: 50%;
+}
+
+.insta-1{
+	margin-left: auto;
+	margin-top: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+}
+.insta-2{
+	opacity: 50%;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 40px;
+	margin-top: -18px;
+	
+}
+
+.block-5 {
+	background-color: var(--clr-yellow-500);
+	grid-area: box6;
+}
+
+.block-5-1{
+	background-color: #7f05ddf6;
+}
+
+
+
+.date{
+	color: white;
+	float: left;
+	padding-right: 12px;
+	position: relative;
+}
+.week{
+	color: white;
+	float: right;
+}
+
+.block-5-2{
+	background-color: white;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	height: 30px;
+	padding-left: 23px;
+	padding-top: 10px;
+	padding-bottom: 016px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.block-6 {
+	background-color: var(--clr-purple-100);
+	text-align: center;
+	grid-area: box3;
+}
+
+.block-6 h2 {
+	padding: 1rem 0;
+}
+
+.block-6 img {
+	margin-top: 1rem;
+	width: 100%;
+}
+
+.block-6 p {
+	padding: 1rem 0;
+	line-height: 1.8rem;
+	opacity: 0.9;
+}
+
+.block-7 {
+	background-color: var(--clr-white);
+	grid-area: box7;
+}
+
+.block-7 h1 {
+	font-family: "DM Sans", sans-serif;
+	font-weight: var(--fw-semi-bold);
+	font-size: 4rem;
+}
+
+.block-7 p {
+	margin-bottom: 1.5rem;
+}
+
+.block-7 img {
+	width: 50%;
+}
+
+.block-8 {
+	background-color: var(--clr-purple-500);
+	padding: 1.5rem 4.5rem;
+	text-align: center;
+	grid-area: box8;
+}
+
+.block-8 img {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.block-8 h2 {
+	color: var(--clr-white);
+	font-weight: 500;
+	width: 80%;
+	margin: 2rem auto 0 auto;
+}
+
+
+
+@media only screen and (min-width: 720px) {
+	.container {
+		display: grid;
+		gap: 2rem;
+		grid-template-areas:
+			"box1 box2"
+			"box3 box4"
+			"box5 box6"
+			"box7 box8";
+	}
+
+	.card {
+		text-align: center;
+		place-content: center;
+		padding: 2rem 2rem;
+		margin: 0;
+	}
+
+	img {
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (min-width: 1400px) {
+	.card {
+		width: auto;
+		margin: 0;
+	}
+
+	.block-1 h2 {
+		font-size: 4rem;
+		line-height: 1;
+		text-align: left;
+	}
+
+	.block-2 h1 {
+		font-size: 6rem;
+		line-height: 6rem;
+	}
+
+	.block-2 p {
+		font-size: 2rem;
+	}
+
+	.block-3 {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.block-3 h2 {
+		font-size: 4rem;
+		line-height: 1;
+		text-align: left;
+	}
+
+	.block-3 img {
+		margin-top: 5rem;
+		width: 100%;
+	}
+
+	.block-4 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.block-4 h2 {
+		margin-top: 1rem;
+		text-align: left;
+		font-size: 3rem;
+		line-height: 1;
+	}
+
+	.block-4 img {
+		width: 30rem;
+	}
+
+	.block-5 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.block-5 h2 {
+		font-size: 3rem;
+		line-height: 1;
+		text-align: left;
+		margin-top: 1rem;
+		position: relative;
+		bottom: -3rem;
+	}
+
+
+	.block-6 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.block-6 h2 {
+		font-size: 3.5rem;
+		line-height: 1;
+		text-align: left;
+		margin-bottom: 1rem;
+	}
+
+	.block-6 img {
+		width: 38rem;
+	}
+
+	.block-6 p {
+		text-align: left;
+		font-size: 2rem;
+		margin-top: 2rem;
+	}
+
+
+	
+	
+
+	.block-7 h1 {
+		font-size: 5rem;
+		text-align: left;
+	}
+
+	.block-7 img {
+		width: 80%;
+		margin: 0;
+	}
+
+	.block-7 p {
+		text-align: left;
+		margin-bottom: 4rem;
+	}
+
+	.block-8 {
+		display: flex;
+		align-items: center;
+	}
+
+	.block-8 h2 {
+		font-size: 3rem;
+		line-height: 1;
+		text-align: left;
+	}
+
+	.block-8 img {
+		height: 23rem;
+		width: auto;
+		margin-right: 1rem;
+	}
+
+	.container {
+		display: grid;
+		margin: 1rem;
+		grid-auto-rows: 7.5rem;
+		grid-auto-columns: 25rem;
+		gap: 2rem;
+		grid-template-areas:
+			"box1 box2 box2 box3"
+			"box1 box2 box2 box3"
+			"box1 box2 box2 box3"
+			"box1 box2 box2 box3"
+			"box1 box5 box6 box3"
+			"box4 box5 box6 box3"
+			"box4 box5 box6 box3"
+			"box4 box7 box8 box8"
+			"box4 box7 box8 box8"
+			"box4 box7 box8 box8";
+	}
+}
